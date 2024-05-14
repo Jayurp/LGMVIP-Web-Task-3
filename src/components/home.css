@@ -1,0 +1,147 @@
+.form
+{
+    width: 50%;
+    max-width: 50%;
+    justify-content: space-between;
+    text-align: left;
+    padding: 10%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.field
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.name
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.email
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.website
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.image
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.gender
+{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.radioOptions
+{
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills
+{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.checkboxes
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 30%;
+}
+
+.nameInput
+{
+    border: solid grey;
+    border-radius: 0.5rem;
+    padding: 2%;
+}
+
+.emailInput
+{
+    border: solid grey;
+    border-radius: 0.5rem;
+    padding: 2%;
+}
+
+.websiteInput
+{
+    border: solid grey;
+    border-radius: 0.5rem;
+    padding: 2%;
+}
+
+.imageInput
+{
+    border: solid grey;
+    border-radius: 0.5rem;
+    padding: 2%;
+}
+
+.buttons
+{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.enrollButton
+{
+    background-color: #0285fc;
+    border: none;
+    font-size: large;
+    color: white;
+    padding: 3%;
+    border-radius: 1rem;
+}
+
+.clearButton
+{
+    background-color: #da2942;
+    border: none;
+    font-size: large;
+    color: white;
+    padding: 3%;
+    border-radius: 1rem;
+}
+
+.heading
+{
+    padding: 1%;
+    background-color: #45d9ae;
+    color: white;
+}
+
+.list
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
